@@ -74,7 +74,9 @@ $$
 
 The sigmoid(or softmax) function is applied to the hidden layer to add a bit of "complexity" to the network. If this isn't done, the entire network can be proven to be a linear combination of the input layer. Adding the sigmoid function into the mix allows the network some more "flexibility".
 
-Helpful resources:
+The file "train.py" was run on Kaggle and hence its code will likely not work in a normal Python environment. Executing `train.py` will then output 4 files which contain information about the weights and biases as separate matrices. The file `run.py` will then read the weights and biases from these files and run it through the network to give the final output.
+
+## Helpful resources:
 
 https://youtu.be/9RN2Wr8xvro?si=IpbPKrK555KBOZMy
 
